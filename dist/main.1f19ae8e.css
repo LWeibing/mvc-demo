@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+* {
+  box-sizing: border-box;
+}
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+ul,li{
+  list-style: none;
+}
+body {
+  overflow: hidden;
+}
+.page {
+  display: flex;
+  flex-wrap: wrap;
+}
+.page > section {
+  width: 50vw;
+  height: 50vh;
+  border: 1px solid red;
+}
+
+#app1{
+    padding: 30px;
+}
+#app1 #number{
+    line-height: 30px;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+#app1 button{
+    padding: 4px;
+}
+#app2{
+padding: 40px;
+}
+#app2 .tab-bar{
+    display: flex;
+    flex-wrap: wrap;
+}
+#app2 .tab-bar li{
+    width: 20vw;
+    border: 1px solid blue;
+    text-align: center;
+}
+#app2 .tab-bar li.active{
+    background-color:red;
+    color: #fff;
+}
+#app2 .tab-content{
+    display: flex;
+    flex-wrap: wrap;
+}
+#app2 .tab-content li{
+    width: 40vw;
+    height: 30vh;
+    border: 1px solid blue;
+    text-align: center;
+    display: none;
+}
+#app2 .tab-content li.active{
+    display: block;
+}
+#app3{
+    padding: 50px;
+}
+#app3 .square{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    transition: all 0.5s;
+}
+#app3 .square.active{
+    transform: translateX(500px);
+}
+#app4{
+    padding: 50px;
+}
+#app4 .color{
+    width: 300px;
+    height: 300px;
+    border: 1px solid red;
+}
+#app4 .color.active{
+    animation: change 1s infinite alternate linear;
+}
+@keyframes change {
+    0% {
+        background: red;
+    }
+    100% {
+        background: blue;
+    }
+}
+
+/*# sourceMappingURL=/main.1f19ae8e.css.map */

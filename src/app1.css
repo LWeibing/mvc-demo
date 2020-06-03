@@ -1,0 +1,11 @@
+#app1{
+    padding: 30px;
+}
+#app1 #number{
+    line-height: 30px;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+#app1 button{
+    padding: 4px;
+}

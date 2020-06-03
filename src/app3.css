@@ -1,0 +1,12 @@
+#app3{
+    padding: 50px;
+}
+#app3 .square{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    transition: all 0.5s;
+}
+#app3 .square.active{
+    transform: translateX(500px);
+}

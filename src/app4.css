@@ -1,0 +1,19 @@
+#app4{
+    padding: 50px;
+}
+#app4 .color{
+    width: 300px;
+    height: 300px;
+    border: 1px solid red;
+}
+#app4 .color.active{
+    animation: change 1s infinite alternate linear;
+}
+@keyframes change {
+    0% {
+        background: red;
+    }
+    100% {
+        background: blue;
+    }
+}
